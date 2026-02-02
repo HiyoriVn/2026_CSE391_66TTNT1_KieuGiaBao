@@ -1,0 +1,429 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Assignment 5: HR Management</title>
+  </head>
+  <body
+    topmargin="0"
+    leftmargin="0"
+    marginheight="0"
+    marginwidth="0"
+    style="font-family: Arial, sans-serif"
+  >
+    <table width="100%" bgcolor="#212529" cellpadding="15">
+      <tr>
+        <td width="60%">
+          <font color="white" size="5"><b>HR Management</b></font>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <font color="#aaaaaa">Home</font> &nbsp;&nbsp;
+          <font color="#aaaaaa">Contact</font>
+        </td>
+        <td align="right">
+          <input
+            type="text"
+            placeholder="Search..."
+            size="30"
+            style="padding: 5px"
+          />
+          <button
+            style="
+              background-color: #212529;
+              color: white;
+              border: 1px solid white;
+              padding: 5px 15px;
+              cursor: pointer;
+            "
+          >
+            Search
+          </button>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table align="center" width="95%" border="0">
+      <tr>
+        <td>
+          <h1>Employee</h1>
+        </td>
+        <td align="right">
+          <button
+            onclick="
+              document.getElementById('modalPopup').style.display = 'block'
+            "
+            style="
+              background-color: #0d6efd;
+              color: white;
+              border: none;
+              padding: 10px 20px;
+              font-weight: bold;
+              border-radius: 4px;
+              cursor: pointer;
+            "
+          >
+            + Add
+          </button>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <table
+            width="100%"
+            border="1"
+            bordercolor="#dee2e6"
+            cellspacing="0"
+            cellpadding="12"
+            style="border-collapse: collapse"
+          >
+            <tr bgcolor="white">
+              <th align="left">ID</th>
+              <th align="left">Name</th>
+              <th align="left">Email</th>
+              <th align="left">Phone</th>
+              <th align="left">Position</th>
+              <th align="left" width="150">Action</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>Fatima Beatriz</td>
+              <td>Fatima Beatriz@gmail.com</td>
+              <td>0985674321</td>
+              <td>Staff</td>
+              <td>
+                <button
+                  style="
+                    background-color: #ffc107;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Edit
+                </button>
+                <button
+                  style="
+                    background-color: #dc3545;
+                    color: white;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Gabriel Hanna</td>
+              <td>Gabriel Hanna@gmail.com</td>
+              <td>0353674231</td>
+              <td>Staff</td>
+              <td>
+                <button
+                  style="
+                    background-color: #ffc107;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Edit
+                </button>
+                <button
+                  style="
+                    background-color: #dc3545;
+                    color: white;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Charles Diya</td>
+              <td>Charles Diya@gmail.com</td>
+              <td>0347658833</td>
+              <td>Staff</td>
+              <td>
+                <button
+                  style="
+                    background-color: #ffc107;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Edit
+                </button>
+                <button
+                  style="
+                    background-color: #dc3545;
+                    color: white;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>Frank Lamdo</td>
+              <td>Frank Lamdo@gmail.com</td>
+              <td>0975444768</td>
+              <td>Manager</td>
+              <td>
+                <button
+                  style="
+                    background-color: #ffc107;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Edit
+                </button>
+                <button
+                  style="
+                    background-color: #dc3545;
+                    color: white;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>Louis Tom</td>
+              <td>Louis Tom@gmail.com</td>
+              <td>0789568223</td>
+              <td>Staff</td>
+              <td>
+                <button
+                  style="
+                    background-color: #ffc107;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Edit
+                </button>
+                <button
+                  style="
+                    background-color: #dc3545;
+                    color: white;
+                    border: none;
+                    padding: 6px 12px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  "
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <div
+      id="modalPopup"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+      "
+    >
+      <table
+        align="center"
+        width="700"
+        bgcolor="white"
+        style="
+          margin-top: 50px;
+          border: 1px solid #0d6efd;
+          border-radius: 4px;
+          overflow: hidden;
+        "
+        cellpadding="0"
+        cellspacing="0"
+      >
+        <tr bgcolor="#0d6efd">
+          <td style="padding: 15px">
+            <font color="white" size="4" face="Arial"><b>New Employee</b></font>
+          </td>
+          <td align="right" style="padding: 15px">
+            <span
+              onclick="
+                document.getElementById('modalPopup').style.display = 'none'
+              "
+              style="
+                cursor: pointer;
+                color: white;
+                font-weight: bold;
+                font-family: Arial;
+              "
+              >&#10005;</span
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="padding: 20px">
+            <form>
+              <table width="100%" cellspacing="10" border="0">
+                <tr>
+                  <td width="50%">
+                    <font color="#555">Name</font><br />
+                    <input
+                      type="text"
+                      style="
+                        width: 95%;
+                        padding: 8px;
+                        border: 1px solid #ced4da;
+                        border-radius: 4px;
+                        margin-top: 5px;
+                      "
+                    />
+                  </td>
+                  <td width="50%">
+                    <font color="#555">Email</font><br />
+                    <input
+                      type="email"
+                      style="
+                        width: 95%;
+                        padding: 8px;
+                        border: 1px solid #ced4da;
+                        border-radius: 4px;
+                        margin-top: 5px;
+                      "
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <font color="#555">Phone</font><br />
+                    <input
+                      type="text"
+                      style="
+                        width: 95%;
+                        padding: 8px;
+                        border: 1px solid #ced4da;
+                        border-radius: 4px;
+                        margin-top: 5px;
+                      "
+                    />
+                  </td>
+                  <td>
+                    <font color="#555">Position</font><br />
+                    <select
+                      style="
+                        width: 98%;
+                        padding: 8px;
+                        border: 1px solid #ced4da;
+                        border-radius: 4px;
+                        margin-top: 5px;
+                        color: #495057;
+                      "
+                    >
+                      <option>-- Select Position --</option>
+                      <option value="Staff">Staff</option>
+                      <option value="Manager">Manager</option>
+                      <option value="CEO">CEO</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <font color="#555">Sex</font><br />
+                    <div style="margin-top: 5px">
+                      <input type="radio" name="sex" id="male" />
+                      <label for="male"><font color="#555">Male</font></label>
+                      &nbsp;&nbsp;
+                      <input type="radio" name="sex" id="female" />
+                      <label for="female"
+                        ><font color="#555">Female</font></label
+                      >
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2"><hr color="#dee2e6" size="1" /></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="right" style="padding: 15px">
+            <button
+              style="
+                background-color: #198754;
+                color: white;
+                border: none;
+                padding: 8px 20px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 14px;
+              "
+            >
+              Save
+            </button>
+            &nbsp;
+            <button
+              onclick="
+                document.getElementById('modalPopup').style.display = 'none'
+              "
+              style="
+                background-color: #6c757d;
+                color: white;
+                border: none;
+                padding: 8px 20px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 14px;
+              "
+            >
+              Cancel
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

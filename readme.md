@@ -1,5 +1,3 @@
-Web Development Fundamentals
-
 # Repository Overview
 
 This repository serves as a comprehensive collection of my coursework, practical exercises, and projects for the **Web Development Fundamentals** course.
