@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Information Form</title>
+  </head>
+  <body bgcolor="#F5F5F5">
+    <br />
+    <table
+      width="600"
+      border="1"
+      cellpadding="20"
+      cellspacing="0"
+      align="center"
+      bgcolor="#FFFFFF"
+    >
+      <tr>
+        <td>
+          <form action="#" method="post">
+            <table width="100%" border="0" cellpadding="8" cellspacing="0">
+              <tr>
+                <td colspan="2">
+                  <font size="4"><b>Basic Info</b></font>
+                  <hr />
+                </td>
+              </tr>
+
+              <tr>
+                <td width="180"><font size="2">Employee ID</font></td>
+                <td>
+                  <input type="text" name="employee-id" value="9" size="50" />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Last Name</font></td>
+                <td>
+                  <input
+                    type="text"
+                    name="last-name"
+                    value="Dodsworth"
+                    size="50"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">First Name</font></td>
+                <td>
+                  <input type="text" name="first-name" value="Anne" size="50" />
+                </td>
+              </tr>
+
+              <tr>
+                <td valign="top"><font size="2">Gender</font></td>
+                <td>
+                  <input type="radio" name="gender" value="male" id="male" />
+                  <label for="male"><font size="2">Male</font></label>
+                  <br />
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="female"
+                    id="female"
+                  />
+                  <label for="female"><font size="2">Female</font></label>
+                  <br />
+                  <input type="radio" name="gender" value="xxx" id="xxx" />
+                  <label for="xxx"><font size="2">XXX</font></label>
+                  <br />
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="zzz"
+                    id="zzz"
+                    checked
+                  />
+                  <label for="zzz"><font size="2">ZZZ</font></label>
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Title</font></td>
+                <td>
+                  <input
+                    type="text"
+                    name="title"
+                    value="Sales Representative"
+                    size="50"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Suffix</font></td>
+                <td>
+                  <input type="text" name="suffix" value="Ms." size="50" />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">BirthDate</font></td>
+                <td>
+                  <input
+                    type="text"
+                    name="birthdate"
+                    value="1969-07-02 00:00:00"
+                    size="50"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">HireDate</font></td>
+                <td>
+                  <input
+                    type="text"
+                    name="hiredate"
+                    value="1994-11-15 00:00:00"
+                    size="50"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">SSN # (if applicable)</font></td>
+                <td>
+                  <input type="text" name="ssn" value="" size="50" />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Reports To</font></td>
+                <td>
+                  <select name="reports-to" size="1">
+                    <option value="">-- Select --</option>
+                    <option value="buchanan" selected>Buchanan</option>
+                    <option value="fuller">Fuller</option>
+                    <option value="leverling">Leverling</option>
+                    <option value="peacock">Peacock</option>
+                    <option value="king">King</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+
+            <br /><br />
+
+            <table width="100%" border="0" cellpadding="8" cellspacing="0">
+              <tr>
+                <td colspan="2">
+                  <font size="4"><b>Contact Info</b></font>
+                  <hr />
+                </td>
+              </tr>
+
+              <tr>
+                <td width="180"><font size="2">Email</font></td>
+                <td>
+                  <input
+                    type="email"
+                    name="email"
+                    value="name@example.com"
+                    size="50"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Address</font></td>
+                <td>
+                  <input
+                    type="text"
+                    name="address"
+                    value="7 Houndstooth Rd."
+                    size="50"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">City</font></td>
+                <td>
+                  <input type="text" name="city" value="London" size="50" />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Region</font></td>
+                <td>
+                  <input type="text" name="region" value="" size="50" />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Postal Code</font></td>
+                <td>
+                  <input
+                    type="text"
+                    name="postal-code"
+                    value="WG2 7LT"
+                    size="50"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Country</font></td>
+                <td>
+                  <select name="country" size="1">
+                    <option value="">-- Select --</option>
+                    <option value="usa">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="russia" selected>Russian Federation</option>
+                    <option value="france">France</option>
+                    <option value="germany">Germany</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">US Home Phone</font></td>
+                <td>
+                  <input
+                    type="text"
+                    name="us-phone"
+                    value="(224)234-2342"
+                    size="50"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Photo</font></td>
+                <td>
+                  <input
+                    type="text"
+                    name="photo"
+                    value="EmpID9.bmp"
+                    size="50"
+                  />
+                </td>
+              </tr>
+            </table>
+
+            <br /><br />
+            <table width="100%" border="0" cellpadding="8" cellspacing="0">
+              <tr>
+                <td colspan="2">
+                  <font size="4"><b>Optional Info</b></font>
+                  <hr />
+                </td>
+              </tr>
+
+              <tr>
+                <td width="180" valign="top"><font size="2">Notes</font></td>
+                <td>
+                  <table
+                    border="1"
+                    cellpadding="5"
+                    cellspacing="0"
+                    width="100%"
+                    bgcolor="#F9F9F9"
+                  >
+                    <tr>
+                      <td>
+                        <font size="2">
+                          <b>B</b> &nbsp; <i>I</i> &nbsp; <u>U</u> &nbsp;
+                          <s>S</s> &nbsp; | &nbsp; ≡ &nbsp; ≡ &nbsp; ≡ &nbsp; ≡
+                          &nbsp; | &nbsp; ↔ &nbsp; ↕ &nbsp; | &nbsp; 🔗 &nbsp; ↪
+                          &nbsp; | &nbsp; • &nbsp; 1. &nbsp; | &nbsp; 👁 &nbsp;
+                          ≡ &nbsp; | &nbsp; 🖼 &nbsp; 📧 &nbsp; | &nbsp; H₁ H₂
+                          H₃ &nbsp; | &nbsp; ✕
+                        </font>
+                      </td>
+                    </tr>
+                  </table>
+                  <textarea name="notes" rows="6" cols="60">
+Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td valign="top"><font size="2">Preferred Shift</font></td>
+                <td>
+                  <input
+                    type="radio"
+                    name="shift"
+                    value="regular"
+                    id="regular"
+                  />
+                  <label for="regular"><font size="2">Regular</font></label>
+                  <br />
+                  <input
+                    type="radio"
+                    name="shift"
+                    value="crazy-yard"
+                    id="crazy-yard"
+                    checked
+                  />
+                  <label for="crazy-yard"
+                    ><font size="2">Crazy Yard</font></label
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Active?</font></td>
+                <td>
+                  <input type="checkbox" name="active" id="active" checked />
+                </td>
+              </tr>
+
+              <tr>
+                <td><font size="2">Are you human?</font></td>
+                <td>
+                  <table border="0" cellpadding="5" cellspacing="5">
+                    <tr>
+                      <td bgcolor="#F0F0F0" border="1">
+                        <font face="Courier New" size="5"
+                          ><b><s>&nbsp;TIDANO&nbsp;</s></b></font
+                        >
+                      </td>
+                      <td>&nbsp;&nbsp;</td>
+                      <td>
+                        <font size="2"><a href="#">Click to change</a></font>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>&nbsp;</td>
+                <td>
+                  <input type="text" name="captcha" value="" size="50" />
+                </td>
+              </tr>
+            </table>
+
+            <br />
+            <table width="100%" border="0" cellpadding="5" cellspacing="0">
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <font size="2" color="red"><b>*</b></font>
+                  <font size="2">required</font>
+                </td>
+              </tr>
+
+              <tr>
+                <td align="right">
+                  <table border="0">
+                    <tr>
+                      <td>
+                        <table>
+                          <tr>
+                            <td>
+                              <input type="submit" value="📋 Submit" />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td>
+                        <table>
+                          <tr>
+                            <td>
+                              <input type="reset" value="✕ Cancel" />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </td>
+      </tr>
+    </table>
+    <br />
+  </body>
+</html>
